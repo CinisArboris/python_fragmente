@@ -18,3 +18,10 @@ fLambda = lambda bas, exp : bas ** exp
 print('Ejercicio 3 : Potencia de un número (2,4)::', fLambda(2,4))
 print('Ejercicio 3 : Potencia de un número (3,2)::', fLambda(3,2))
 print('Ejercicio 3 : Potencia de un número (5,3)::', fLambda(5,3))
+
+# Ejercicio 4: Ordenar palabras por su longitud
+# Dada una lista de palabras, ordena las palabras por su longitud utilizando una función lambda en la función sorted.
+fLambda = lambda arrString : sorted(arrString, key=lambda word : len(word))
+print('Ejercicio 4: Ordenar palabras por su longitud', fLambda(['aaaa','bbb','cc','d']))
+print('Ejercicio 4: Ordenar palabras por su longitud', fLambda(['aaaa','bbb','cc','d']))
+print('Ejercicio 4: Ordenar palabras por su longitud', fLambda(['aaaa','bbb','cc','d']))
